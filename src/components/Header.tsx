@@ -68,12 +68,12 @@ export const Header = () => {
           borderRightWidth={1}
           borderColor="gray.700"
         >
-          <Icon as={RiNotificationLine} fontSize="20" />
-          <Icon as={RiUserAddLine} fontSize="20" />
+          <Icon as={RiNotificationLine} fontSize="20" cursor="pointer" />
+          <Icon as={RiUserAddLine} fontSize="20" cursor="pointer" />
         </HStack>
 
         <Flex align="center">
-          <Box mr="4" textAlign="right">
+          <Box mr="4" textAlign="right" cursor="pointer">
             <Text>Diou Medeiros</Text>
             <Text color="gray.300" fontSize="small">
               diou.182@gmail.com
